@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import './promission'//获取路由
 import router from './router'
 import store from './store'
 

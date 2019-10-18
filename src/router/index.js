@@ -6,10 +6,10 @@ Vue.use(Router);
 export default new Router({
     base:'/',
     routes: [
-        {
-            path: '/hello',
-            component: resolve => require(['@/page/HelloWorld.vue'], resolve)
-        },
+        // {
+        //     path: '/hello',
+        //     component: resolve => require(['@/page/HelloWorld.vue'], resolve)
+        // },
         // {
         //     path: '/404',
         //     component: resolve => require(['@/page/404.vue'], resolve)
